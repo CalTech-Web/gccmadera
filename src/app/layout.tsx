@@ -3,7 +3,6 @@ import { Inter, Lora } from "next/font/google";
 import "./globals.css";
 import ScrollAnimations from "@/components/ScrollAnimations";
 import ScrollProgress from "@/components/ScrollProgress";
-import AnnouncementBar from "@/components/AnnouncementBar";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
@@ -44,7 +43,6 @@ export default function RootLayout({
       <body>
         <ScrollProgress />
         <ScrollAnimations />
-        <AnnouncementBar />
         <Nav />
         {children}
         <Footer />
