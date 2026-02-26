@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter, Lora } from "next/font/google";
 import "./globals.css";
 import ScrollAnimations from "@/components/ScrollAnimations";
-import ScrollProgress from "@/components/ScrollProgress";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
@@ -41,7 +40,6 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${lora.variable}`}>
       <body>
-        <ScrollProgress />
         <ScrollAnimations />
         <Nav />
         {children}
