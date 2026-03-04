@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import ContactForm from "@/components/ContactForm";
 
 // ─── HERO ───────────────────────────────────────────────────────────────────
 
@@ -1038,50 +1039,8 @@ function Contact() {
           </div>
 
           {/* Simple contact form */}
-          <div data-animate data-delay="1" className="bg-white rounded-3xl p-8 shadow-sm border border-[#e8e0d0]">
-            <h3 className="text-[#1a2e4a] font-bold text-xl mb-6">Send Us a Message</h3>
-            <form className="space-y-4">
-              <div className="grid sm:grid-cols-2 gap-4">
-                <div>
-                  <label className="block text-[#1a2e4a] text-sm font-medium mb-1.5">First Name</label>
-                  <input
-                    type="text"
-                    placeholder="John"
-                    className="w-full px-4 py-3 rounded-xl border border-[#e8e0d0] bg-[#faf7f2] text-[#2d2d2d] text-sm focus:outline-none focus:ring-2 focus:ring-[#c8973a] focus:border-transparent placeholder:text-[#b0a898]"
-                  />
-                </div>
-                <div>
-                  <label className="block text-[#1a2e4a] text-sm font-medium mb-1.5">Last Name</label>
-                  <input
-                    type="text"
-                    placeholder="Smith"
-                    className="w-full px-4 py-3 rounded-xl border border-[#e8e0d0] bg-[#faf7f2] text-[#2d2d2d] text-sm focus:outline-none focus:ring-2 focus:ring-[#c8973a] focus:border-transparent placeholder:text-[#b0a898]"
-                  />
-                </div>
-              </div>
-              <div>
-                <label className="block text-[#1a2e4a] text-sm font-medium mb-1.5">Email</label>
-                <input
-                  type="email"
-                  placeholder="john@example.com"
-                  className="w-full px-4 py-3 rounded-xl border border-[#e8e0d0] bg-[#faf7f2] text-[#2d2d2d] text-sm focus:outline-none focus:ring-2 focus:ring-[#c8973a] focus:border-transparent placeholder:text-[#b0a898]"
-                />
-              </div>
-              <div>
-                <label className="block text-[#1a2e4a] text-sm font-medium mb-1.5">Message</label>
-                <textarea
-                  rows={4}
-                  placeholder="How can we help you?"
-                  className="w-full px-4 py-3 rounded-xl border border-[#e8e0d0] bg-[#faf7f2] text-[#2d2d2d] text-sm focus:outline-none focus:ring-2 focus:ring-[#c8973a] focus:border-transparent resize-none placeholder:text-[#b0a898]"
-                />
-              </div>
-              <button
-                type="submit"
-                className="w-full bg-[#1a2e4a] hover:bg-[#243d61] text-white font-semibold py-3.5 rounded-xl transition-colors text-sm"
-              >
-                Send Message
-              </button>
-            </form>
+          <div data-animate data-delay="1">
+            <ContactForm />
           </div>
         </div>
       </div>
