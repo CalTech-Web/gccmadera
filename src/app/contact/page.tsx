@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import PageHero from "@/components/PageHero";
+import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
   title: "Contact Us | Grace Community Church Madera",
@@ -111,73 +112,7 @@ export default function ContactPage() {
             </div>
 
             {/* Form */}
-            <div className="bg-white rounded-3xl p-8 shadow-sm border border-[#e8e0d0]">
-              <h3 className="text-[#1a2e4a] font-bold text-xl mb-2">Send Us a Message</h3>
-              <p className="text-[#7a7060] text-sm mb-6">We typically respond within one business day.</p>
-              <form className="space-y-4">
-                <div className="grid sm:grid-cols-2 gap-4">
-                  <div>
-                    <label className="block text-[#1a2e4a] text-sm font-medium mb-1.5">First Name</label>
-                    <input
-                      type="text"
-                      placeholder="John"
-                      className="w-full px-4 py-3 rounded-xl border border-[#e8e0d0] bg-[#faf7f2] text-[#2d2d2d] text-sm focus:outline-none focus:ring-2 focus:ring-[#c8973a] focus:border-transparent placeholder:text-[#b0a898]"
-                    />
-                  </div>
-                  <div>
-                    <label className="block text-[#1a2e4a] text-sm font-medium mb-1.5">Last Name</label>
-                    <input
-                      type="text"
-                      placeholder="Smith"
-                      className="w-full px-4 py-3 rounded-xl border border-[#e8e0d0] bg-[#faf7f2] text-[#2d2d2d] text-sm focus:outline-none focus:ring-2 focus:ring-[#c8973a] focus:border-transparent placeholder:text-[#b0a898]"
-                    />
-                  </div>
-                </div>
-                <div>
-                  <label className="block text-[#1a2e4a] text-sm font-medium mb-1.5">Email</label>
-                  <input
-                    type="email"
-                    placeholder="john@example.com"
-                    className="w-full px-4 py-3 rounded-xl border border-[#e8e0d0] bg-[#faf7f2] text-[#2d2d2d] text-sm focus:outline-none focus:ring-2 focus:ring-[#c8973a] focus:border-transparent placeholder:text-[#b0a898]"
-                  />
-                </div>
-                <div>
-                  <label className="block text-[#1a2e4a] text-sm font-medium mb-1.5">Phone (optional)</label>
-                  <input
-                    type="tel"
-                    placeholder="(559) 000-0000"
-                    className="w-full px-4 py-3 rounded-xl border border-[#e8e0d0] bg-[#faf7f2] text-[#2d2d2d] text-sm focus:outline-none focus:ring-2 focus:ring-[#c8973a] focus:border-transparent placeholder:text-[#b0a898]"
-                  />
-                </div>
-                <div>
-                  <label className="block text-[#1a2e4a] text-sm font-medium mb-1.5">How can we help?</label>
-                  <select className="w-full px-4 py-3 rounded-xl border border-[#e8e0d0] bg-[#faf7f2] text-[#2d2d2d] text-sm focus:outline-none focus:ring-2 focus:ring-[#c8973a] focus:border-transparent">
-                    <option value="">Select a topic...</option>
-                    <option value="visit">I want to visit GCC</option>
-                    <option value="prayer">Prayer request</option>
-                    <option value="membership">Church membership</option>
-                    <option value="kids">Children&apos;s Ministry</option>
-                    <option value="youth">Youth Ministry</option>
-                    <option value="pastoral">Pastoral care / counseling</option>
-                    <option value="other">Other</option>
-                  </select>
-                </div>
-                <div>
-                  <label className="block text-[#1a2e4a] text-sm font-medium mb-1.5">Message</label>
-                  <textarea
-                    rows={4}
-                    placeholder="Tell us more..."
-                    className="w-full px-4 py-3 rounded-xl border border-[#e8e0d0] bg-[#faf7f2] text-[#2d2d2d] text-sm focus:outline-none focus:ring-2 focus:ring-[#c8973a] focus:border-transparent resize-none placeholder:text-[#b0a898]"
-                  />
-                </div>
-                <button
-                  type="submit"
-                  className="w-full bg-[#1a2e4a] hover:bg-[#243d61] text-white font-semibold py-3.5 rounded-xl transition-colors text-sm"
-                >
-                  Send Message
-                </button>
-              </form>
-            </div>
+            <ContactForm />
           </div>
         </div>
       </section>
