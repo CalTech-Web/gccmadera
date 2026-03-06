@@ -73,7 +73,7 @@ export default function Nav() {
 
       {/* Mobile Menu */}
       {open && (
-        <div className="lg:hidden bg-[#1a2e4a] border-t border-white/10 px-4 py-3 space-y-1">
+        <nav className="lg:hidden bg-[#1a2e4a] border-t border-white/10 px-4 py-3 space-y-1">
           {navLinks.map((link) => (
             <Link
               key={link.href}
@@ -93,7 +93,7 @@ export default function Nav() {
               Plan Your Visit
             </Link>
           </div>
-        </div>
+        </nav>
       )}
     </header>
   );

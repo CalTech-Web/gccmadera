@@ -272,7 +272,7 @@ function Testimonials() {
 
         <div className="grid md:grid-cols-3 gap-8">
           {testimonials.map((t) => (
-            <div
+            <article
               key={t.name}
               data-animate
               data-delay={t.delay}
@@ -296,7 +296,7 @@ function Testimonials() {
                   <div className="text-[#7a7060] text-xs">{t.role}</div>
                 </div>
               </div>
-            </div>
+            </article>
           ))}
         </div>
       </div>
@@ -465,7 +465,7 @@ function Sermons() {
         {/* Sermon cards */}
         <div className="grid md:grid-cols-3 gap-6">
           {sermons.map((sermon, i) => (
-            <div
+            <article
               key={sermon.title}
               data-animate
               data-delay={String(i + 1)}
@@ -506,7 +506,7 @@ function Sermons() {
                 </svg>
                 Watch Message
               </a>
-            </div>
+            </article>
           ))}
         </div>
       </div>
@@ -834,7 +834,7 @@ function Events() {
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {events.map((e) => (
-            <div
+            <article
               key={e.title}
               data-animate
               data-delay={e.delay}
@@ -861,7 +861,7 @@ function Events() {
                 </div>
                 <p className="text-[#7a7060] text-xs leading-relaxed">{e.desc}</p>
               </div>
-            </div>
+            </article>
           ))}
         </div>
       </div>

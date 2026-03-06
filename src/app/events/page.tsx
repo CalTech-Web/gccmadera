@@ -102,7 +102,7 @@ export default function EventsPage() {
       />
 
       {/* Weekly Regulars Banner */}
-      <div className="bg-[#c8973a]/10 border-b border-[#c8973a]/20 px-4 sm:px-6 py-4">
+      <aside className="bg-[#c8973a]/10 border-b border-[#c8973a]/20 px-4 sm:px-6 py-4">
         <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-center gap-6 text-sm text-[#1a2e4a]">
           <span className="font-semibold">Every week:</span>
           <span className="flex items-center gap-1.5">
@@ -118,14 +118,14 @@ export default function EventsPage() {
             Thursday Women&apos;s Study, 9:00 AM
           </span>
         </div>
-      </div>
+      </aside>
 
       {/* Events Grid */}
       <section className="bg-[#faf7f2] py-24 px-4 sm:px-6">
         <div className="max-w-7xl mx-auto">
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {events.map((e) => (
-              <div
+              <article
                 key={e.title + e.day}
                 className="bg-white rounded-2xl overflow-hidden border border-[#e8e0d0] hover:shadow-md transition-shadow"
               >
@@ -155,7 +155,7 @@ export default function EventsPage() {
                   </div>
                   <p className="text-[#7a7060] text-xs leading-relaxed">{e.desc}</p>
                 </div>
-              </div>
+              </article>
             ))}
           </div>
         </div>

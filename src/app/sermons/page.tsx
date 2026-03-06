@@ -93,7 +93,7 @@ export default function SermonsPage() {
       />
 
       {/* Livestream / Podcast Bar */}
-      <div className="bg-[#1a2e4a] border-b border-white/10 px-4 sm:px-6 py-4">
+      <aside className="bg-[#1a2e4a] border-b border-white/10 px-4 sm:px-6 py-4">
         <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-center gap-4 sm:gap-8">
           <div className="flex items-center gap-2 text-white/70 text-sm">
             <span className="w-2 h-2 rounded-full bg-[#c8973a] animate-pulse" />
@@ -123,7 +123,7 @@ export default function SermonsPage() {
             Apple Podcast
           </a>
         </div>
-      </div>
+      </aside>
 
       {/* Recent Sermons Grid */}
       <section className="bg-[#1a2e4a] py-24 px-4 sm:px-6">
@@ -140,7 +140,7 @@ export default function SermonsPage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {sermons.map((sermon, i) => (
-              <div
+              <article
                 key={sermon.title}
                 className={`rounded-2xl p-6 border transition-all hover:-translate-y-1 hover:shadow-xl cursor-pointer ${
                   i === 0
@@ -179,7 +179,7 @@ export default function SermonsPage() {
                   </svg>
                   Watch Message
                 </a>
-              </div>
+              </article>
             ))}
           </div>
         </div>
@@ -200,7 +200,7 @@ export default function SermonsPage() {
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {pastSeries.map((series) => (
-              <div
+              <article
                 key={series.title}
                 className="bg-white rounded-2xl p-6 border border-[#e8e0d0] hover:shadow-md transition-shadow cursor-pointer group"
               >
@@ -209,7 +209,7 @@ export default function SermonsPage() {
                   {series.title}
                 </h3>
                 <p className="text-[#7a7060] text-sm leading-relaxed">{series.desc}</p>
-              </div>
+              </article>
             ))}
           </div>
         </div>
