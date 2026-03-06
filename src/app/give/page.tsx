@@ -5,6 +5,16 @@ export const metadata: Metadata = {
   title: "Give | Grace Community Church Madera",
   description: "Give online or by mail to Grace Community Church Madera. Generosity fuels local ministry and global missions.",
   alternates: { canonical: "/give" },
+  openGraph: {
+    title: "Give | Grace Community Church Madera",
+    description: "Give online or by mail to Grace Community Church Madera. Generosity fuels local ministry and global missions.",
+    url: "https://gccmadera.com/give",
+  },
+  twitter: {
+    card: "summary",
+    title: "Give | Grace Community Church Madera",
+    description: "Give online or by mail to Grace Community Church Madera. Generosity fuels local ministry and global missions.",
+  },
 };
 
 export default function GivePage() {

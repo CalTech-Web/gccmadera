@@ -5,6 +5,16 @@ export const metadata: Metadata = {
   title: "Events | Grace Community Church Madera",
   description: "Upcoming events at Grace Community Church Madera. Services, studies, retreats, and community gatherings.",
   alternates: { canonical: "/events" },
+  openGraph: {
+    title: "Events | Grace Community Church Madera",
+    description: "Upcoming events at Grace Community Church Madera. Services, studies, retreats, and community gatherings.",
+    url: "https://gccmadera.com/events",
+  },
+  twitter: {
+    card: "summary",
+    title: "Events | Grace Community Church Madera",
+    description: "Upcoming events at Grace Community Church Madera. Services, studies, retreats, and community gatherings.",
+  },
 };
 
 const events = [

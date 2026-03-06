@@ -6,6 +6,16 @@ export const metadata: Metadata = {
   title: "Plan Your Visit | Grace Community Church Madera",
   description: "Everything you need to know before your first visit to Grace Community Church Madera. Schedule, location, parking, and what to expect.",
   alternates: { canonical: "/visit" },
+  openGraph: {
+    title: "Plan Your Visit | Grace Community Church Madera",
+    description: "Join us Sundays at 9AM & 11AM. 17755 Road 26, Madera, CA. Free breakfast between services.",
+    url: "https://gccmadera.com/visit",
+  },
+  twitter: {
+    card: "summary",
+    title: "Plan Your Visit | Grace Community Church Madera",
+    description: "Join us Sundays at 9AM & 11AM. 17755 Road 26, Madera, CA. Free breakfast between services.",
+  },
 };
 
 export default function VisitPage() {

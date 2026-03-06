@@ -5,6 +5,16 @@ export const metadata: Metadata = {
   title: "Messages | Grace Community Church Madera",
   description: "Watch and listen to sermons from Grace Community Church Madera. Currently preaching through the Gospel of John.",
   alternates: { canonical: "/sermons" },
+  openGraph: {
+    title: "Messages | Grace Community Church Madera",
+    description: "Watch and listen to sermons from Grace Community Church Madera. Currently preaching through the Gospel of John.",
+    url: "https://gccmadera.com/sermons",
+  },
+  twitter: {
+    card: "summary",
+    title: "Messages | Grace Community Church Madera",
+    description: "Watch and listen to sermons from Grace Community Church Madera. Currently preaching through the Gospel of John.",
+  },
 };
 
 const sermons = [

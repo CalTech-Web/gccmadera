@@ -6,6 +6,16 @@ export const metadata: Metadata = {
   title: "Contact Us | Grace Community Church Madera",
   description: "Get in touch with Grace Community Church Madera. (559) 674-1172 · info@gccmadera.com · 17755 Road 26, Madera, CA 93638.",
   alternates: { canonical: "/contact" },
+  openGraph: {
+    title: "Contact Us | Grace Community Church Madera",
+    description: "Reach Grace Community Church Madera by phone, email, or in person at 17755 Road 26, Madera, CA.",
+    url: "https://gccmadera.com/contact",
+  },
+  twitter: {
+    card: "summary",
+    title: "Contact Us | Grace Community Church Madera",
+    description: "Reach Grace Community Church Madera by phone, email, or in person at 17755 Road 26, Madera, CA.",
+  },
 };
 
 export default function ContactPage() {

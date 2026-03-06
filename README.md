@@ -17,14 +17,12 @@ Open [http://localhost:3007](http://localhost:3007) to see the app.
 
 ## Agents
 
-
-WORK=/Users/brandonhopkins/Projects/gccmadera/agents/visual-enhancement-agent MODEL="opus" MAX_LOOPS=3 bash ~/Projects/claude-lab/ENGINE/run.sh
 ```
+WORK=/Users/brandonhopkins/Projects/gccmadera/agents/design-agent MODEL="sonnet" MAX_LOOPS=5 bash ~/Projects/claude-lab/ENGINE/run.sh
 
-**Watch logs:**
-```bash
-tail -f agents/visual-enhancement-agent/output/agent-log.md
+WORK=/Users/brandonhopkins/Projects/gccmadera/agents/content-agent MODEL="sonnet" MAX_LOOPS=5 bash ~/Projects/claude-lab/ENGINE/run.sh
+
+WORK=/Users/brandonhopkins/Projects/gccmadera/agents/seo-agent MODEL="sonnet" MAX_LOOPS=5 bash ~/Projects/claude-lab/ENGINE/run.sh
+
+WORK=/Users/brandonhopkins/Projects/gccmadera/agents/pagespeed-agent MODEL="sonnet" MAX_LOOPS=5 bash ~/Projects/claude-lab/ENGINE/run.sh
 ```
-
-**Stop the agent:**
-touch agents/visual-enhancement-agent/output/STOP

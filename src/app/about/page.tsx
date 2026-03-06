@@ -6,6 +6,16 @@ export const metadata: Metadata = {
   title: "About Us | Grace Community Church Madera",
   description: "Learn about Grace Community Church of Madera. Our mission, beliefs, history, and team.",
   alternates: { canonical: "/about" },
+  openGraph: {
+    title: "About Us | Grace Community Church Madera",
+    description: "Learn about Grace Community Church of Madera. Our mission, beliefs, history, and team.",
+    url: "https://gccmadera.com/about",
+  },
+  twitter: {
+    card: "summary",
+    title: "About Us | Grace Community Church Madera",
+    description: "Learn about Grace Community Church of Madera. Our mission, beliefs, history, and team.",
+  },
 };
 
 export default function AboutPage() {

@@ -6,6 +6,16 @@ import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
+  openGraph: {
+    title: "Grace Community Church | Madera, CA",
+    description: "A warm, welcoming church family in Madera, California. Join us Sundays at 9AM & 11AM. You're welcome here.",
+    url: "https://gccmadera.com",
+  },
+  twitter: {
+    card: "summary",
+    title: "Grace Community Church | Madera, CA",
+    description: "A warm, welcoming church family in Madera, California. Join us Sundays at 9AM & 11AM.",
+  },
 };
 
 // ─── HERO ───────────────────────────────────────────────────────────────────

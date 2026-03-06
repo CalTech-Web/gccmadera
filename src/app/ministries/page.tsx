@@ -6,6 +6,16 @@ export const metadata: Metadata = {
   title: "Ministries | Grace Community Church Madera",
   description: "Explore all ministries at Grace Community Church Madera. Kids, Youth, Awana, Men's, Women's, and more.",
   alternates: { canonical: "/ministries" },
+  openGraph: {
+    title: "Ministries | Grace Community Church Madera",
+    description: "Explore all ministries at Grace Community Church Madera. Kids, Youth, Awana, Men's, Women's, and more.",
+    url: "https://gccmadera.com/ministries",
+  },
+  twitter: {
+    card: "summary",
+    title: "Ministries | Grace Community Church Madera",
+    description: "Explore all ministries at Grace Community Church Madera. Kids, Youth, Awana, Men's, Women's, and more.",
+  },
 };
 
 const ministries = [
