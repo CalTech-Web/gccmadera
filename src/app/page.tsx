@@ -55,7 +55,7 @@ function Hero() {
       <div className="relative z-10 text-center px-4 sm:px-6 max-w-4xl mx-auto hero-animate">
         {/* Eyebrow */}
         <p className="text-[#c8973a] text-sm sm:text-base font-semibold tracking-widest uppercase mb-6">
-          Grace Community Church &middot; Madera, CA
+          You&apos;re Welcome Here
         </p>
 
         {/* Headline */}
@@ -63,10 +63,10 @@ function Hero() {
           className="text-white text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight mb-6"
           style={{ fontFamily: "var(--font-lora), Georgia, serif" }}
         >
-          You&apos;re{" "}
-          <span className="text-[#c8973a]">Welcome</span>
+          Grace{" "}
+          <span className="text-[#c8973a]">Community</span>
           <br />
-          Here.
+          Church, Madera
         </h1>
 
         {/* Subhead */}
