@@ -16,6 +16,7 @@ const lora = Lora({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://gccmadera.com"),
   title: "Grace Community Church | Madera, CA",
   description:
     "A warm, welcoming church family in Madera, California. Join us Sundays at 9AM & 11AM. You're welcome here.",

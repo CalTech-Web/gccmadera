@@ -5,6 +5,7 @@ import PageHero from "@/components/PageHero";
 export const metadata: Metadata = {
   title: "Ministries | Grace Community Church Madera",
   description: "Explore all ministries at Grace Community Church Madera. Kids, Youth, Awana, Men's, Women's, and more.",
+  alternates: { canonical: "/ministries" },
 };
 
 const ministries = [

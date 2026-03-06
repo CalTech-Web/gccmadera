@@ -5,6 +5,7 @@ import PageHero from "@/components/PageHero";
 export const metadata: Metadata = {
   title: "Plan Your Visit | Grace Community Church Madera",
   description: "Everything you need to know before your first visit to Grace Community Church Madera. Schedule, location, parking, and what to expect.",
+  alternates: { canonical: "/visit" },
 };
 
 export default function VisitPage() {

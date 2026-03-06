@@ -5,6 +5,7 @@ import PageHero from "@/components/PageHero";
 export const metadata: Metadata = {
   title: "Pursuit Student Ministries | Grace Community Church Madera",
   description: "Pursuit Student Ministries serves grades 7–12 at Grace Community Church Madera. Sundays, Wednesdays, retreats, and camps.",
+  alternates: { canonical: "/ministries/youth" },
 };
 
 export default function YouthPage() {

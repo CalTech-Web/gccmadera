@@ -5,6 +5,7 @@ import PageHero from "@/components/PageHero";
 export const metadata: Metadata = {
   title: "About Us | Grace Community Church Madera",
   description: "Learn about Grace Community Church of Madera. Our mission, beliefs, history, and team.",
+  alternates: { canonical: "/about" },
 };
 
 export default function AboutPage() {

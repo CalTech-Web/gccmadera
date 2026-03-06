@@ -4,6 +4,7 @@ import PageHero from "@/components/PageHero";
 export const metadata: Metadata = {
   title: "Give | Grace Community Church Madera",
   description: "Give online or by mail to Grace Community Church Madera. Generosity fuels local ministry and global missions.",
+  alternates: { canonical: "/give" },
 };
 
 export default function GivePage() {

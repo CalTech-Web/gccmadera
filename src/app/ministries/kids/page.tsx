@@ -5,6 +5,7 @@ import PageHero from "@/components/PageHero";
 export const metadata: Metadata = {
   title: "GCC Kids | Grace Community Church Madera",
   description: "GCC Kids offers fun, safe, Gospel-centered programming for children birth through 6th grade at Grace Community Church Madera.",
+  alternates: { canonical: "/ministries/kids" },
 };
 
 export default function KidsPage() {

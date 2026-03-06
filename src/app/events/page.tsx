@@ -4,6 +4,7 @@ import PageHero from "@/components/PageHero";
 export const metadata: Metadata = {
   title: "Events | Grace Community Church Madera",
   description: "Upcoming events at Grace Community Church Madera. Services, studies, retreats, and community gatherings.",
+  alternates: { canonical: "/events" },
 };
 
 const events = [

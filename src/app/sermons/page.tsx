@@ -4,6 +4,7 @@ import PageHero from "@/components/PageHero";
 export const metadata: Metadata = {
   title: "Messages | Grace Community Church Madera",
   description: "Watch and listen to sermons from Grace Community Church Madera. Currently preaching through the Gospel of John.",
+  alternates: { canonical: "/sermons" },
 };
 
 const sermons = [
