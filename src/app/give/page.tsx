@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import PageHero from "@/components/PageHero";
 
 export const metadata: Metadata = {
@@ -156,6 +157,23 @@ export default function GivePage() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* See the Ministry */}
+      <section className="bg-[#faf7f2] py-16 px-4 sm:px-6 text-center">
+        <div className="max-w-2xl mx-auto">
+          <p className="text-[#7a7060] text-base mb-6">
+            Want to see what your giving makes possible?{" "}
+            <Link href="/sermons" className="text-[#c8973a] hover:underline font-medium">
+              Listen to a sermon
+            </Link>{" "}
+            or explore our{" "}
+            <Link href="/ministries" className="text-[#c8973a] hover:underline font-medium">
+              ministries
+            </Link>
+            .
+          </p>
         </div>
       </section>
 

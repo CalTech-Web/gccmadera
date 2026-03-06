@@ -175,6 +175,9 @@ export default function KidsPage() {
           >
             Contact Lavonne to Volunteer
           </Link>
+          <p className="text-[#7a7060] text-sm mt-6">
+            <Link href="/ministries" className="text-[#c8973a] hover:underline">← All Ministries</Link>
+          </p>
         </div>
       </section>
     </main>

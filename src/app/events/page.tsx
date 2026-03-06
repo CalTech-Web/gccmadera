@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import PageHero from "@/components/PageHero";
 
 export const metadata: Metadata = {
@@ -172,10 +173,19 @@ export default function EventsPage() {
             Never Miss an Event
           </h2>
           <p className="text-[#7a7060] text-lg leading-relaxed mb-8">
-            The best way to stay up to date is to join us Sunday mornings, announcements are shared each week.
-            You can also call the church office or fill out a connection card.
+            The best way to stay up to date is to{" "}
+            <Link href="/visit" className="text-[#c8973a] hover:underline font-medium">
+              join us Sunday mornings
+            </Link>
+            , announcements are shared each week. You can also call the church office or fill out a connection card.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
+            <Link
+              href="/visit"
+              className="inline-flex items-center gap-2 bg-[#c8973a] hover:bg-[#d9ab56] text-white font-bold px-8 py-4 rounded-full transition-colors"
+            >
+              Plan Your Visit
+            </Link>
             <a
               href="tel:5596741172"
               className="inline-flex items-center gap-2 bg-[#1a2e4a] hover:bg-[#243d61] text-white font-semibold px-8 py-4 rounded-full transition-colors"

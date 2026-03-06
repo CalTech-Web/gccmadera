@@ -118,6 +118,9 @@ export default function MensMinistryPage() {
           <p className="text-[#7a7060] text-sm mt-6">
             Or email: <a href="mailto:info@gccmadera.com" className="text-[#c8973a] hover:underline">info@gccmadera.com</a>
           </p>
+          <p className="text-[#7a7060] text-sm mt-4">
+            <Link href="/ministries" className="text-[#c8973a] hover:underline">← All Ministries</Link>
+          </p>
         </div>
       </section>
     </main>

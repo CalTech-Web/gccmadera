@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import PageHero from "@/components/PageHero";
 
 export const metadata: Metadata = {
@@ -211,6 +212,36 @@ export default function SermonsPage() {
                 <p className="text-[#7a7060] text-sm leading-relaxed">{series.desc}</p>
               </article>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="bg-[#1a2e4a] py-20 px-4 sm:px-6 text-center">
+        <div className="max-w-2xl mx-auto">
+          <p className="text-[#c8973a] text-sm font-semibold tracking-widest uppercase mb-4">Join Us</p>
+          <h2
+            className="text-white text-4xl font-bold mb-6"
+            style={{ fontFamily: "var(--font-lora), Georgia, serif" }}
+          >
+            Hear It in Person
+          </h2>
+          <p className="text-white/70 text-lg mb-8">
+            Sermons come alive when shared in community. Join us Sunday mornings at 9:00 or 11:00 AM.
+          </p>
+          <div className="flex flex-wrap justify-center gap-4">
+            <Link
+              href="/visit"
+              className="inline-flex items-center gap-2 bg-[#c8973a] hover:bg-[#d9ab56] text-white font-bold px-8 py-4 rounded-full transition-colors"
+            >
+              Plan Your Visit
+            </Link>
+            <Link
+              href="/events"
+              className="inline-flex items-center gap-2 border-2 border-white/30 text-white hover:border-white font-semibold px-8 py-4 rounded-full transition-colors"
+            >
+              Upcoming Events
+            </Link>
           </div>
         </div>
       </section>

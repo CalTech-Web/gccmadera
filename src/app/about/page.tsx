@@ -346,12 +346,20 @@ export default function AboutPage() {
           <p className="text-white/70 text-lg mb-8">
             Visit us this Sunday at 9:00 AM or 11:00 AM. You&apos;re welcome here.
           </p>
-          <Link
-            href="/visit"
-            className="inline-flex items-center gap-2 bg-[#c8973a] hover:bg-[#d9ab56] text-white font-bold px-8 py-4 rounded-full transition-colors"
-          >
-            Plan Your Visit
-          </Link>
+          <div className="flex flex-wrap justify-center gap-4">
+            <Link
+              href="/visit"
+              className="inline-flex items-center gap-2 bg-[#c8973a] hover:bg-[#d9ab56] text-white font-bold px-8 py-4 rounded-full transition-colors"
+            >
+              Plan Your Visit
+            </Link>
+            <Link
+              href="/sermons"
+              className="inline-flex items-center gap-2 border-2 border-white/30 text-white hover:border-white font-semibold px-8 py-4 rounded-full transition-colors"
+            >
+              Listen to a Sermon
+            </Link>
+          </div>
         </div>
       </section>
     </main>
