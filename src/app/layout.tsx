@@ -53,7 +53,6 @@ const churchJsonLd = {
   description:
     "A warm, welcoming Bible church in Madera, California affiliated with the Southern Baptist Convention. Join us Sundays at 9AM & 11AM.",
   telephone: "+15596741172",
-  email: "info@gccmadera.com",
   address: {
     "@type": "PostalAddress",
     streetAddress: "17755 Road 26",
