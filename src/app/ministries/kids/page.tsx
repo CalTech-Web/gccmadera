@@ -6,6 +6,16 @@ export const metadata: Metadata = {
   title: "GCC Kids | Grace Community Church Madera",
   description: "GCC Kids offers fun, safe, Gospel-centered programming for children birth through 6th grade at Grace Community Church Madera.",
   alternates: { canonical: "/ministries/kids" },
+  openGraph: {
+    title: "GCC Kids | Grace Community Church Madera",
+    description: "GCC Kids offers fun, safe, Gospel-centered programming for children birth through 6th grade at Grace Community Church Madera.",
+    url: "https://gccmadera.com/ministries/kids",
+  },
+  twitter: {
+    card: "summary",
+    title: "GCC Kids | Grace Community Church Madera",
+    description: "GCC Kids offers fun, safe, Gospel-centered programming for children birth through 6th grade at Grace Community Church Madera.",
+  },
 };
 
 export default function KidsPage() {

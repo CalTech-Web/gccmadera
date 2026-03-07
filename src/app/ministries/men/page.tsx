@@ -6,6 +6,16 @@ export const metadata: Metadata = {
   title: "Men's Ministry | Grace Community Church Madera",
   description: "Men's Ministry at Grace Community Church Madera. Bible studies, breakfasts, retreats, and community for men of all ages.",
   alternates: { canonical: "/ministries/men" },
+  openGraph: {
+    title: "Men's Ministry | Grace Community Church Madera",
+    description: "Men's Ministry at Grace Community Church Madera. Bible studies, breakfasts, retreats, and community for men of all ages.",
+    url: "https://gccmadera.com/ministries/men",
+  },
+  twitter: {
+    card: "summary",
+    title: "Men's Ministry | Grace Community Church Madera",
+    description: "Men's Ministry at Grace Community Church Madera. Bible studies, breakfasts, retreats, and community for men of all ages.",
+  },
 };
 
 export default function MensMinistryPage() {

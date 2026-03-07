@@ -6,6 +6,16 @@ export const metadata: Metadata = {
   title: "Women's Ministry | Grace Community Church Madera",
   description: "Women's Ministry at GCC Madera. Weekly Bible studies on Wednesdays and Thursdays, annual retreat at Calvin Crest, and more.",
   alternates: { canonical: "/ministries/women" },
+  openGraph: {
+    title: "Women's Ministry | Grace Community Church Madera",
+    description: "Women's Ministry at GCC Madera. Weekly Bible studies on Wednesdays and Thursdays, annual retreat at Calvin Crest, and more.",
+    url: "https://gccmadera.com/ministries/women",
+  },
+  twitter: {
+    card: "summary",
+    title: "Women's Ministry | Grace Community Church Madera",
+    description: "Women's Ministry at GCC Madera. Weekly Bible studies on Wednesdays and Thursdays, annual retreat at Calvin Crest, and more.",
+  },
 };
 
 export default function WomensMinistryPage() {

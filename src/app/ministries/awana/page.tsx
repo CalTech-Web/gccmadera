@@ -6,6 +6,16 @@ export const metadata: Metadata = {
   title: "Awana | Grace Community Church Madera",
   description: "Awana clubs at GCC Madera serve children preschool through 6th grade every Wednesday evening during the school year.",
   alternates: { canonical: "/ministries/awana" },
+  openGraph: {
+    title: "Awana | Grace Community Church Madera",
+    description: "Awana clubs at GCC Madera serve children preschool through 6th grade every Wednesday evening during the school year.",
+    url: "https://gccmadera.com/ministries/awana",
+  },
+  twitter: {
+    card: "summary",
+    title: "Awana | Grace Community Church Madera",
+    description: "Awana clubs at GCC Madera serve children preschool through 6th grade every Wednesday evening during the school year.",
+  },
 };
 
 export default function AwanaPage() {
