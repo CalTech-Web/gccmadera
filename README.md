@@ -1,28 +1,14 @@
 # GCC Madera
 
-Redesign of [GCCMadera.com](https://gccmadera.com) - Grace Community Church of Madera, California.
+Next.js 16, React 19, TypeScript, Tailwind CSS 4
+Deployed on Vercel: https://gccmadera.vercel.app
+Production: https://gccmadera.com
+Local dev: http://localhost:3007
 
-**Stack:** Next.js 16, React 19, Tailwind CSS v4, TypeScript
+## Run Agents
 
-## Getting Started
-
-```bash
-npm install
-npm run dev
-```
-
-Open [http://localhost:3007](http://localhost:3007) to see the app.
-
-> Port 3007 is used because 3000–3006 are occupied by other local projects.
-
-## Agents
-
-```
 WORK=/Users/brandonhopkins/Projects/gccmadera/agents/design-agent MODEL="sonnet" MAX_LOOPS=5 bash ~/Projects/claude-lab/ENGINE/run.sh
-
 WORK=/Users/brandonhopkins/Projects/gccmadera/agents/content-agent MODEL="sonnet" MAX_LOOPS=5 bash ~/Projects/claude-lab/ENGINE/run.sh
-
 WORK=/Users/brandonhopkins/Projects/gccmadera/agents/seo-agent MODEL="sonnet" MAX_LOOPS=5 bash ~/Projects/claude-lab/ENGINE/run.sh
-
 WORK=/Users/brandonhopkins/Projects/gccmadera/agents/pagespeed-agent MODEL="sonnet" MAX_LOOPS=5 bash ~/Projects/claude-lab/ENGINE/run.sh
-```
+WORK=/Users/brandonhopkins/Projects/gccmadera/agents/visual-enhancement-agent MODEL="sonnet" MAX_LOOPS=5 bash ~/Projects/claude-lab/ENGINE/run.sh

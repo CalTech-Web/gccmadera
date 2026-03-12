@@ -207,3 +207,25 @@ Deployed to Vercel (Ready).
 
 **Commit:** 1bf1ae1 — deployed to Vercel ✓
 **Run 5 complete.**
+**Run 5 complete.** Here's what was done:
+
+### Image Alt Text
+All existing images already had descriptive alt text. No changes needed.
+
+### Internal Linking (9 files, commit `1bf1ae1`)
+
+| Page | Links Added |
+|---|---|
+| `sermons/page.tsx` | New CTA section: `/visit` + `/events` |
+| `events/page.tsx` | Contextual `/visit` link in body text + "Plan Your Visit" button |
+| `give/page.tsx` | New "See the Ministry" section: `/sermons` + `/ministries` |
+| `about/page.tsx` | "Listen to a Sermon" button → `/sermons` in CTA |
+| `ministries/kids` | `← All Ministries` → `/ministries` |
+| `ministries/youth` | `← All Ministries` → `/ministries` |
+| `ministries/awana` | `← All Ministries` → `/ministries` |
+| `ministries/women` | `← All Ministries` → `/ministries` |
+| `ministries/men` | `← All Ministries` → `/ministries` |
+
+Deployed to Vercel (Ready). All 5 runs in the SEO agent run order are now complete.
+[2026-03-06 10:43:07] Run #5 finished
+[2026-03-06 10:43:07] Reached max loops (5). Stopping.
